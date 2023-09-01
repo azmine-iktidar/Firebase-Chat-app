@@ -9,16 +9,18 @@ const Sidebar = () => {
       <Navbar />
       <Search />
       <Chats />
-      <p className="sidebartext">
+      <div className="sidebartext">
         <strong>Note:</strong>
         <ol>
           <li>
             The Seach works when you know the username only, which has to match
-            exactly to the case
+            exactly to the case. Example: type{" "}
+            <span style={{ color: "Pink", fontWeight: 700 }}>"Azmine"</span>{" "}
+            Exactly
           </li>
           <li>Video Call or group Call doesn not work, just for show</li>
         </ol>
-      </p>
+      </div>
     </div>
   );
 };
