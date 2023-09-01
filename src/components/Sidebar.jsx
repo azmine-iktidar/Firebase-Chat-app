@@ -9,7 +9,7 @@ const Sidebar = () => {
       <Navbar />
       <Search />
       <Chats />
-      <p>
+      <p className="sidebartext">
         <strong>Note:</strong>
         <ol>
           <li>

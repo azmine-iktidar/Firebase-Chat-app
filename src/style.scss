@@ -108,7 +108,9 @@
       flex: 1;
       background-color: #3e3c61;
       position: relative;
-
+      .sidebartext {
+        color: white;
+      }
       .navbar {
         display: flex;
         align-items: center;
